@@ -35,17 +35,22 @@ account's holdings.
 
 
 **Alternative course**
-41. If the pin does not match up an error message appears
-42. By the 3rd attempt the actor is asked to contact his bank
-81. If withdrawal amount is greater than the account's holdings, the actor will be asked to try again
+4,1. If the pin does not match up an error message appears
+
+4,2. By the 3rd attempt the actor is asked to contact his bank
+
+8,1. If withdrawal amount is greater than the account's holdings, the actor will be asked to try again
 
 
 **Non functional additions**
+
 Have the ability to sort out being locked out of your account, by the ATM or on a webpage
 
 
 **Future expansions**
+
 Actor can log in with his phone and an NFC reader on the ATM
+
 
 ## Diagram
 ![class-diagram](./assets/class-diagram.png)
