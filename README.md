@@ -16,3 +16,6 @@ ATM displays successfull subtration from users account
 else
 ATM asks user to try again with a valid input until a valid input is entered
 
+
+## Diagram
+![class-diagram](./assets/class-diagram.png)
