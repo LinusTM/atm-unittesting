@@ -4,7 +4,7 @@ User wants to access his money through an ATM, so he can withdraw his money
 
 ## Use case
 User walks up to the ATM
-User inserts is card linked to his account
+User inserts card linked to his account
 User types in his 4 digit pin
 ATM checks if the combination of card/account and pin match up
 If card/account matches up
