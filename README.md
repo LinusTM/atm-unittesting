@@ -53,5 +53,5 @@ Have the ability to sort out being locked out of your account, by the ATM or on 
 Actor can log in with his phone and an NFC reader on the ATM
 
 
-## Diagram
+## Class diagram
 ![class-diagram](./assets/class-diagram.png)
