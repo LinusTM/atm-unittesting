@@ -1,4 +1,4 @@
-namespace atm.Tests;
+namespace validate_pin.Tests;
 
 public class UnitTest1
 {
@@ -19,5 +19,16 @@ public class UnitTest1
     }
 
 	[Theory]
+	[InlineData(2994, 20010, 2003)]
+	[InlineData(2994, 2010, 2013)]
+	[InlineData(true, false, false)]
+	public void PinLengthShouldMatch(int inputPin, int accountPin, bool expected)
+	{
+		ValidatePin pinValidate = new ValidatePin();
+
+		bool result = pinValidate.Compare(inputPin, accountPin);
+
+		Assert.Equal(expected, result);
+	}
 }
 
